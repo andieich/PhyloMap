@@ -3,12 +3,9 @@
 
 <head>
 
-	<title>V6 OlavMap</title>
+	<title>PhyloMap</title>
 
 	<meta charset="utf-8" />
-
-	<!-- CSS Bootstrap -->
-	<link rel="stylesheet" href="scripts/bootstrap.css" />
 
 	<!-- CSS Leaflet -->
 	<link rel="stylesheet" href="scripts/leaflet.css" />
@@ -16,24 +13,8 @@
 	<!-- JS Leaflet -->
 	<script src="scripts/leaflet.js"></script>
 
-	<!-- CSS Fullscreen -->
-	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
-
-	<!-- JS Fullscreen -->
-	<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-
 	<!-- JS JQuery -->
 	<script src='scripts/jquery-3.3.1.min.js'></script>
-
-	<!-- CSS Grouped Layers -->
-	<link href='scripts/leaflet.groupedlayercontrol.min.css' rel='stylesheet' />
-
-	<!-- JS Grouped Layers -->
-	<script src="scripts/leaflet.groupedlayercontrol.min.js"></script>
-
-	<!-- JS Navionics -->
-	<link rel="stylesheet" href="https://webapiv2.navionics.com/dist/webapi/webapi.min.css">
-	<script type="text/javascript" src="https://webapiv2.navionics.com/dist/webapi/webapi.min.no-dep.js"></script>
 
 	<!-- CSS MarkerCluster -->
 	<link rel="stylesheet" href="scripts/MarkerCluster.css" />
@@ -44,64 +25,56 @@
 	<!-- JS MarkerCluster -->
 	<script src="scripts/leaflet.markercluster.js"></script>
 
-	<!-- JS Bootstrap -->
-	<script src="scripts/bootstrap.js"></script>
+	<!-- Phylocanvas -->
+	<script type="application/javascript" src="https://cdn.rawgit.com/phylocanvas/phylocanvas-quickstart/v2.8.1/phylocanvas-quickstart.js"></script>
 
-	<!-- JS bootstrap-multiselect -->
-	<script src="scripts/bootstrap-multiselect.js"></script>
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	<!-- CSS bootstrap-multiselect -->
-	<link rel="stylesheet" href="scripts/bootstrap-multiselect.css" />
 
-	<!-- Own Styles -->
 	<style>
-		body {
-			padding: 0;
-			margin: 0;
+		#tree {
+			width: 31vw;
+			height: 90vh;
 		}
 
-
-		html,
-		body,
-		#olavius-map {
-			height: 100%;
-			width: 100%;
-		}
-
-		.filters {
-			padding: 6px 8px;
-			font: bold 14px/16px Arial, Helvetica, sans-serif;
-			background: rgba(255, 255, 255, 1);
-			box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-			border-radius: 5px;
-			line-height: 1.2;
-		}
-
-		.center {
-			text-align: center;
-			font-size: 15px
-		}
-
-		hr {
-			margin-top: 0.5em;
-			margin-bottom: 0.3em;
+		#map {
+			width: 60vw;
+			height: 90vh;
 		}
 
 	</style>
 
 </head>
 
+
 <body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<div id="tree"></div>
+			</div>
+			<div class="col">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
 
-	<div id="olavius-map"></div>
 
-	<!-- Data-->
-	<script src='data/data.js'></script>
+	<div id="phylocanvas"></div>
 
-	<!-- Main -->
-	<script src='scripts/main.js'></script>
+	<!--	 Visualize tree  -->
+	<script src='scripts/tree.js'></script>
 
-	
+	<!-- Map  -->
+	<script src='data/test_meta.js'></script>
+	<script src='scripts/map.js'></script>
+
+
+
+
+
 </body>
 
 </html>
