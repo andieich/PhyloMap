@@ -1,0 +1,693 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.73855,32.324033 ]
+    },
+    "properties": {
+    "symbiont":"Ileu1BER2.Alpha1",
+    "symbiont_clade":"Alpha1",
+    "worm":"Ileu1BER2",
+    "host_species":"I. leukodermatus 1",
+    "sampling_site":"Bermuda",
+    "depth":-1,
+    "sampling_date":"Nov.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.73855,32.324033 ]
+    },
+    "properties": {
+    "symbiont":"Ileu1BER1.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"Ileu1BER1",
+    "host_species":"I. leukodermatus 1",
+    "sampling_site":"Bermuda",
+    "depth":-1,
+    "sampling_date":"Nov.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.73855,32.324033 ]
+    },
+    "properties": {
+    "symbiont":"Ileu1BER2.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"Ileu1BER2",
+    "host_species":"I. leukodermatus 1",
+    "sampling_site":"Bermuda",
+    "depth":-1,
+    "sampling_date":"Nov.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"ImakBAH1.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"ImakBAH1",
+    "host_species":"I. makropetalos",
+    "sampling_site":"Bahamas",
+    "depth":-2.5,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"ImakBAH2.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"ImakBAH2",
+    "host_species":"I. makropetalos",
+    "sampling_site":"Bahamas",
+    "depth":-4,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.178733,23.72595 ]
+    },
+    "properties": {
+    "symbiont":"ItriBAH1.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"ItriBAH1",
+    "host_species":"I. triangulatus",
+    "sampling_site":"Bahamas",
+    "depth":-6,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.178733,23.72595 ]
+    },
+    "properties": {
+    "symbiont":"ItriBAH2.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"ItriBAH2",
+    "host_species":"I. triangulatus",
+    "sampling_site":"Bahamas",
+    "depth":-6,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH1.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"OspD1",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH2.Alpha10",
+    "symbiont_clade":"Alpha10",
+    "worm":"OspD2",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"IexuBAH1a.Alpha12",
+    "symbiont_clade":"Alpha12",
+    "worm":"IexuBAH1",
+    "host_species":"I. exumae",
+    "sampling_site":"Bahamas",
+    "depth":-2.5,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"ImakBAH1.Alpha12",
+    "symbiont_clade":"Alpha12",
+    "worm":"ImakBAH1",
+    "host_species":"I. makropetalos",
+    "sampling_site":"Bahamas",
+    "depth":-2.5,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"ImakBAH2.Alpha12",
+    "symbiont_clade":"Alpha12",
+    "worm":"ImakBAH2",
+    "host_species":"I. makropetalos",
+    "sampling_site":"Bahamas",
+    "depth":-4,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.066183,42.574217 ]
+    },
+    "properties": {
+    "symbiont":"OfilPIA1.Alpha12",
+    "symbiont_clade":"Alpha12",
+    "worm":"OfilPIA1",
+    "host_species":"O. filicauda",
+    "sampling_site":"Pianosa",
+    "depth":-6,
+    "sampling_date":"May.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH1.Alpha12",
+    "symbiont_clade":"Alpha12",
+    "worm":"OspD1",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH2.Alpha12",
+    "symbiont_clade":"Alpha12",
+    "worm":"OspD2",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"IexuBAH2.Alpha13",
+    "symbiont_clade":"Alpha13",
+    "worm":"IexuBAH2",
+    "host_species":"I. exumae",
+    "sampling_site":"Bahamas",
+    "depth":-2.5,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"IexuBAH3.Alpha13",
+    "symbiont_clade":"Alpha13",
+    "worm":"IexuBAH3",
+    "host_species":"I. exumae",
+    "sampling_site":"Bahamas",
+    "depth":-2.5,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.73855,32.324033 ]
+    },
+    "properties": {
+    "symbiont":"Ileu1BER1.Alpha2",
+    "symbiont_clade":"Alpha2",
+    "worm":"Ileu1BER1",
+    "host_species":"I. leukodermatus 1",
+    "sampling_site":"Bermuda",
+    "depth":-1,
+    "sampling_date":"Nov.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.73855,32.324033 ]
+    },
+    "properties": {
+    "symbiont":"Ileu1BER2.Alpha2",
+    "symbiont_clade":"Alpha2",
+    "worm":"Ileu1BER2",
+    "host_species":"I. leukodermatus 1",
+    "sampling_site":"Bermuda",
+    "depth":-1,
+    "sampling_date":"Nov.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.09835,23.774533 ]
+    },
+    "properties": {
+    "symbiont":"IexuBAH1a.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"IexuBAH1",
+    "host_species":"I. exumae",
+    "sampling_site":"Bahamas",
+    "depth":-2.5,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.451667,-14.69 ]
+    },
+    "properties": {
+    "symbiont":"ImanLIZ1.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"ImanL",
+    "host_species":"I. makropetalos",
+    "sampling_site":"Lizard Island",
+    "depth":-3,
+    "sampling_date":"Feburary 2006"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.178733,23.72595 ]
+    },
+    "properties": {
+    "symbiont":"ItriBAH1.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"ItriBAH1",
+    "host_species":"I. triangulatus",
+    "sampling_site":"Bahamas",
+    "depth":-6,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.178733,23.72595 ]
+    },
+    "properties": {
+    "symbiont":"ItriBAH2.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"ItriBAH2",
+    "host_species":"I. triangulatus",
+    "sampling_site":"Bahamas",
+    "depth":-6,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.91307,-23.44344 ]
+    },
+    "properties": {
+    "symbiont":"OalbHER1.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"OalbH1",
+    "host_species":"O. albidus",
+    "sampling_site":"Heran Island",
+    "depth":-0.5,
+    "sampling_date":"Aug.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.91307,-23.44344 ]
+    },
+    "properties": {
+    "symbiont":"OalbHER2.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"OalbH2",
+    "host_species":"O. albidus",
+    "sampling_site":"Heran Island",
+    "depth":-0.5,
+    "sampling_date":"Aug.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.945,-23.4349 ]
+    },
+    "properties": {
+    "symbiont":"OloiHER1.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"OloiH1",
+    "host_species":"O. loisae",
+    "sampling_site":"Heran Island",
+    "depth":-5,
+    "sampling_date":"Sep.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.945,-23.4349 ]
+    },
+    "properties": {
+    "symbiont":"OloiHER2.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"OloiH2",
+    "host_species":"O. loisae",
+    "sampling_site":"Heran Island",
+    "depth":-5,
+    "sampling_date":"Sep.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.451667,-14.648333 ]
+    },
+    "properties": {
+    "symbiont":"OloiLIZ1.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"OloiL1",
+    "host_species":"O. loisae",
+    "sampling_site":"Lizard Island",
+    "depth":-3,
+    "sampling_date":"Feb.06"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.451667,-14.648333 ]
+    },
+    "properties": {
+    "symbiont":"OloiLIZ2.Alpha3",
+    "symbiont_clade":"Alpha3",
+    "worm":"OloiL2",
+    "host_species":"O. loisae",
+    "sampling_site":"Lizard Island",
+    "depth":-3,
+    "sampling_date":"Feb.06"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.451667,-14.69 ]
+    },
+    "properties": {
+    "symbiont":"ImanLIZ1.Alpha4",
+    "symbiont_clade":"Alpha4",
+    "worm":"ImanL",
+    "host_species":"I. manae",
+    "sampling_site":"Lizard Island",
+    "depth":-3,
+    "sampling_date":"Feburary 2006"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 145.451667,-14.69 ]
+    },
+    "properties": {
+    "symbiont":"ImanLIZ1.Alpha5",
+    "symbiont_clade":"Alpha5",
+    "worm":"ImanL",
+    "host_species":"I. manae",
+    "sampling_site":"Lizard Island",
+    "depth":-3,
+    "sampling_date":"Feburary 2006"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 151.945,-23.4349 ]
+    },
+    "properties": {
+    "symbiont":"Osp1HER1.Alpha5",
+    "symbiont_clade":"Alpha5",
+    "worm":"OspH1",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Heran Island",
+    "depth":-7,
+    "sampling_date":"Sep.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.818444,21.468722 ]
+    },
+    "properties": {
+    "symbiont":"Osp1OAH1.Alpha5",
+    "symbiont_clade":"Alpha5",
+    "worm":"Osp1OAH1",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Oahu",
+    "depth":-8,
+    "sampling_date":"Nov.15"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.130067,23.770117 ]
+    },
+    "properties": {
+    "symbiont":"OvacBAH1.Alpha6",
+    "symbiont_clade":"Alpha6",
+    "worm":"OvacBAH1",
+    "host_species":"O. vacuus",
+    "sampling_site":"Bahamas",
+    "depth":-0.2,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.130067,23.770117 ]
+    },
+    "properties": {
+    "symbiont":"OvacBAH2.Alpha6",
+    "symbiont_clade":"Alpha6",
+    "worm":"OvacBAH2",
+    "host_species":"O. vacuus",
+    "sampling_site":"Bahamas",
+    "depth":-0.2,
+    "sampling_date":"Apr.13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.066183,42.574217 ]
+    },
+    "properties": {
+    "symbiont":"OilvPIA1.Alpha7",
+    "symbiont_clade":"Alpha7",
+    "worm":"OilvPIA1",
+    "host_species":"O. ilvae",
+    "sampling_site":"Pianosa",
+    "depth":-6,
+    "sampling_date":"May.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.066183,42.574217 ]
+    },
+    "properties": {
+    "symbiont":"OilvPIA2.Alpha7",
+    "symbiont_clade":"Alpha7",
+    "worm":"OilvPIA2",
+    "host_species":"O. ilvae",
+    "sampling_site":"Pianosa",
+    "depth":-6,
+    "sampling_date":"May.12"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.142104,42.80816 ]
+    },
+    "properties": {
+    "symbiont":"OilvSAN1.Alpha7",
+    "symbiont_clade":"Alpha7",
+    "worm":"OilvS1",
+    "host_species":"O. ilvae",
+    "sampling_site":"Sant'Andrea",
+    "depth":-6,
+    "sampling_date":"Jun.14"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.142104,42.80816 ]
+    },
+    "properties": {
+    "symbiont":"OilvSAN2.Alpha7",
+    "symbiont_clade":"Alpha7",
+    "worm":"OilvS2",
+    "host_species":"O. ilvae",
+    "sampling_site":"Sant'Andrea",
+    "depth":-6,
+    "sampling_date":"Jun.14"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH1.Alpha8",
+    "symbiont_clade":"Alpha8",
+    "worm":"OspD1",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH2.Alpha8",
+    "symbiont_clade":"Alpha8",
+    "worm":"OspD2",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH1.Alpha9",
+    "symbiont_clade":"Alpha9",
+    "worm":"OspD1",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.521874,28.505376 ]
+    },
+    "properties": {
+    "symbiont":"Osp1DAH2.Alpha9",
+    "symbiont_clade":"Alpha9",
+    "worm":"OspD2",
+    "host_species":"O. sp. 1",
+    "sampling_site":"Dahab",
+    "depth":-6.5,
+    "sampling_date":"Oct.09"
+    }
+  }
+]
+}

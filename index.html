@@ -7,41 +7,57 @@
 
 	<meta charset="utf-8" />
 
+	<!--Leaflet scripts-->
+	<!--	-->
+
 	<!-- CSS Leaflet -->
-	<link rel="stylesheet" href="scripts/leaflet.css" />
+	<link rel="stylesheet" href="scripts/Leaflet/leaflet.css" />
 
 	<!-- JS Leaflet -->
-	<script src="scripts/leaflet.js"></script>
-
-	<!-- JS JQuery -->
-	<script src='scripts/jquery-3.3.1.min.js'></script>
+	<script src="scripts/Leaflet/leaflet.js"></script>
 
 	<!-- CSS MarkerCluster -->
-	<link rel="stylesheet" href="scripts/MarkerCluster.css" />
+	<link rel="stylesheet" href="scripts/Leaflet/MarkerCluster.css" />
 
 	<!-- CSS MarkerCluster Default -->
-	<link rel="stylesheet" href="scripts/MarkerCluster.Default.css" />
+	<link rel="stylesheet" href="scripts/Leaflet/MarkerCluster.Default.css" />
 
 	<!-- JS MarkerCluster -->
-	<script src="scripts/leaflet.markercluster.js"></script>
+	<script src="scripts/Leaflet/leaflet.markercluster.js"></script>
 
+
+	<!--	Tree scripts-->
+	<!---->
 	<!-- Phylocanvas -->
 	<script type="application/javascript" src="https://cdn.rawgit.com/phylocanvas/phylocanvas-quickstart/v2.8.1/phylocanvas-quickstart.js"></script>
 
+
+	<!--	Other scripts-->
+	<!---->
+
+	<!-- JS JQuery -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
 	<!--Bootstrap-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 	<style>
 		#tree {
 			width: 31vw;
-			height: 90vh;
+			height: 100vh;
 		}
 
 		#map {
-			width: 60vw;
-			height: 90vh;
+			width: 63vw;
+			height: 100vh;
+		}
+
+		.center {
+			text-align: center;
+			font-size: 15px
 		}
 
 	</style>
@@ -64,16 +80,7 @@
 
 	<div id="phylocanvas"></div>
 
-	<!--	 Visualize tree  -->
-	<script src='scripts/tree.js'></script>
-
-	<!-- Map  -->
-	<script src='data/test_meta.js'></script>
-	<script src='scripts/map.js'></script>
-
-
-
-
+	<script src='scripts/PhyloMap/PhyloMap.js'></script>
 
 </body>
 
