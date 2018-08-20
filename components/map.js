@@ -43,6 +43,11 @@ function MapComponent(){
     this.clusterGroup.clearLayers();
   };
 
+  this.format_properties = function(feature, layer) {
+    var pup = '<strong>'+feature.properties.Symbiont+'</strong>'+'<pre>'+JSON.stringify(feature.properties,null,' ').replace(/[\{\}"]/g,'')+'</pre>';
+
+    layer.bindPopup(pup);
+  }
   this.build_markers = function(meta_data,selected_ids){
     this.clear_markers();
     var marker = this.default_marker;
@@ -50,6 +55,7 @@ function MapComponent(){
     if(marker === undefined){
       log("Could not create marker instance");
     }
+    var mc = this;
     var geo_data = L.geoJSON(meta_data, { //Define how points will look like
       pointToLayer: marker,
       filter: function(feature,layer){
@@ -60,7 +66,8 @@ function MapComponent(){
             if (feature.properties.Symbiont == sel_nodes[i]) return true; //return true if genus fits to selected node in tree
           }
         }
-      }
+      },
+      onEachFeature: mc.format_properties
     });
     this.clusterGroup.addLayer(geo_data);
     this.clusterGroup.addTo(this.map); //Actually show points on map
